@@ -11,7 +11,7 @@
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     color: #702082;
-    background: #CFC096;
+    background: lightgray;
   }
 
   .radio {
@@ -26,8 +26,8 @@
     padding: 10px;
     font-size: 18px;
     font-weight: bold;
-    background: #CFC096;
-    color: #9B9A6D;
+    background: white;
+    color: #333;
   }
 
   #message {
@@ -56,3 +56,23 @@
   input[type="submit"]:hover {
     background-color: #45a049;
   }
+
+  .skip {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #ffcc00;
+    color: black;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip:focus {
+    top: 10px;
+}
+
+main {
+    padding: 2rem;
+    margin: auto;
+    background: white;
+}
